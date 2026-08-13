@@ -2,17 +2,6 @@
 
 A hybrid music recommendation system that combines content-based filtering (audio features + tags) with item-based collaborative filtering (user listening patterns) to deliver personalized song recommendations.
 
-## Results
-
-Evaluated on 20,000 users using leave-k-out protocol:
-
-| Approach | Precision@10 | Recall@10 | NDCG@10 | Hit Rate@10 |
-|----------|-------------|-----------|---------|-------------|
-| Content-Based (TF-IDF + audio) | 0.0070 | 0.0162 | 0.0181 | 0.0600 |
-| Collaborative (Cosine Similarity) | 0.0334 | 0.0969 | 0.0731 | 0.2540 |
-| **Hybrid (0.5 / 0.5)** | **0.0344** | **0.1026** | **0.0799** | **0.2580** |
-
-**Best configuration:** Hybrid with equal weighting achieves **9.2% NDCG@10 improvement** over collaborative-only baseline.
 
 ## Architecture
 
