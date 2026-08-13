@@ -27,6 +27,9 @@ A hybrid music recommendation system that combines content-based filtering (audi
           │   Top-K Recommendations│
           └───────────────────────┘
 ```
+## 🚀 Live Demo
+
+[🔗 Try the Recommendation System](https://hybrid-recsys.streamlit.app/)
 
 ## Tech Stack
 
