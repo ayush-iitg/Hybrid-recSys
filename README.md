@@ -33,9 +33,7 @@ A hybrid music recommendation system that combines content-based filtering (audi
 - **ML:** scikit-learn, scipy, numpy, pandas
 - **Feature Engineering:** TF-IDF, One-Hot Encoding, MinMax/Standard scaling via ColumnTransformer
 - **Large-scale Processing:** Dask (9.7M interactions, 960K users)
-- **Data Versioning:** DVC + AWS S3
 - **App:** Streamlit
-- **Deployment:** Docker, GitHub Actions CI/CD, AWS (ECR, EC2, CodeDeploy)
 
 ## Dataset
 
